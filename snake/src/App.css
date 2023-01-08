@@ -1,0 +1,25 @@
+.cages{
+  margin: 250px auto;
+  display: flex;
+  flex-direction: row;
+  border:  1px solid black;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 400px;
+}
+
+.cage{
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+.apple{
+  background-color: brown;
+}
+.active{
+  background-color: green !important;
+}
+.face{
+  background-color: rgb(8, 97, 33);
+}
